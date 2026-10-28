@@ -8,3 +8,41 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
 .page-hero{padding:5.3rem 0 3.3rem;border-bottom:1px solid var(--line)}.page-hero h1{margin:1.2rem 0 1rem;font-size:clamp(3.7rem,8vw,7rem);line-height:.9;letter-spacing:-.085em}.page-hero h1 span{color:var(--purple2)}.page-lead{margin:0;max-width:45rem;color:var(--muted);font-size:1.08rem;line-height:1.7}.catalog-section,.policy-list-section,.company-detail{padding-top:3rem}.detail-card{position:relative;display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;min-height:330px;overflow:hidden;border:1px solid var(--line);border-radius:14px;background:radial-gradient(ellipse at 16% 50%,rgba(111,96,255,.14),transparent 47%),linear-gradient(120deg,#101221,#0d0e18)}.detail-card-alt{background:radial-gradient(ellipse at 16% 50%,rgba(91,113,205,.14),transparent 47%),linear-gradient(120deg,#101221,#0d0e18)}.detail-index{position:absolute;top:1.4rem;left:1.5rem;color:#a0a2b6;font-size:.82rem;letter-spacing:.12em}.detail-symbol{justify-self:center;display:grid;place-items:center;width:170px;height:170px;border:1px solid rgba(145,135,255,.36);border-radius:50%;background:radial-gradient(circle,rgba(113,99,255,.23),rgba(16,18,33,.05) 70%);color:var(--purple2);font-size:5rem;font-weight:760;box-shadow:0 0 60px rgba(108,94,255,.1)}.ironau-symbol{color:#d0cfea;border-color:rgba(166,167,204,.3);background:radial-gradient(circle,rgba(119,121,169,.16),rgba(16,18,33,.05) 70%);box-shadow:0 0 55px rgba(120,120,200,.08)}.detail-content{padding:4.5rem 2.5rem 2.5rem 0}.detail-content h2{margin:0 0 1.4rem;font-size:clamp(2.2rem,4.4vw,4rem);line-height:.98;letter-spacing:-.07em}.detail-tag{margin:0 0 1.3rem;color:var(--muted);font-size:.95rem}.detail-tag code{color:#d9d7ff;font-size:.9rem}.policy-list-section{padding-bottom:5rem}.container{width:min(100% - 2rem,850px);margin:0 auto;padding:2rem 0 4rem}.policy .back{display:inline-block;margin-bottom:2rem;color:#c1c1d2;font-size:.95rem;text-decoration:none}.policy .back:hover{color:var(--purple2)}.policy h1{margin:0;font-size:clamp(2.3rem,5vw,3.5rem);line-height:1;letter-spacing:-.06em}.policy .lead{max-width:40rem;margin:.9rem 0 1.8rem;color:var(--muted);font-size:1.08rem;line-height:1.6}.meta{display:flex;flex-wrap:wrap;gap:1rem 2rem;margin:0 0 1.7rem;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:10px;background:rgba(18,20,38,.7)}.meta div{min-width:12rem}.meta dt{color:var(--muted);font-size:.88rem}.meta dd{margin:.25rem 0 0;color:#e7e7f2;font-size:.96rem;font-weight:650}.policy section{padding:1.15rem 0;border-top:1px solid var(--line)}.policy h2{margin:0 0 .55rem;font-size:1.2rem;letter-spacing:-.02em}.policy p{margin:.55rem 0;color:#c0c2d0;font-size:1rem;line-height:1.75}.policy a:not(.back){color:var(--purple2)}.policy .site-footer{width:100%}@media(max-width:800px){.page-hero{padding:4.4rem 0 2.8rem}.detail-card{grid-template-columns:.7fr 1.3fr;min-height:290px}.detail-symbol{width:120px;height:120px;font-size:3.8rem}.detail-content{padding-right:1.2rem}.company-row{grid-template-columns:1fr;gap:1.4rem}.company-row h2{font-size:4.5rem}.container{padding-top:2rem}}@media(max-width:540px){.page-hero h1{font-size:clamp(3.4rem,15vw,6rem)}.detail-card{grid-template-columns:1fr;padding-top:3.5rem}.detail-index{top:1.2rem}.detail-symbol{width:105px;height:105px;margin:.4rem auto 0;font-size:3.3rem}.detail-content{padding:1.4rem 1.2rem 1.7rem}.detail-content h2{font-size:2.25rem}.policy-row{gap:.8rem}.policy-num{width:36px;height:36px}.policy-title b{font-size:.9rem}.policy-title small{font-size:.82rem}.meta{display:grid;gap:.85rem}.meta div{min-width:0}}
+
+/* Readable typography and a more spacious portfolio layout */
+body{line-height:1.5}
+.hero h1,.page-hero h1{letter-spacing:-.025em;line-height:1.05;text-wrap:balance}
+.section-head h2,.company-row h2,.project-card h3,.detail-content h2,.policy h1{letter-spacing:-.025em;line-height:1.12;text-wrap:balance}
+.hero h1{font-size:clamp(3.1rem,6.5vw,6.2rem)}
+.page-hero h1{font-size:clamp(2.8rem,6vw,5.5rem)}
+.site-header nav a,.footer-nav a{font-size:.9rem;line-height:1.4}
+.site-header nav a[aria-current="page"]{color:#fff}
+.project-card{padding:1.7rem;min-height:260px;border-radius:18px}
+.project-card h3{font-size:clamp(1.8rem,3vw,2.8rem)}
+.catalog-section{display:grid;gap:1.2rem}
+.catalog-section .detail-card{margin-top:0!important}
+.detail-card{border-radius:18px}
+.detail-content{min-width:0}
+.detail-content h2{font-size:clamp(2rem,3.5vw,3.5rem);overflow-wrap:normal}
+.detail-content p{color:var(--muted);line-height:1.7}
+.policy h1{font-size:clamp(2rem,4vw,3.4rem)}
+.policy h2{line-height:1.35}
+.policy p{line-height:1.8}
+a:focus-visible{outline:2px solid var(--purple2);outline-offset:4px}
+@media(max-width:800px){
+ .hero h1{font-size:clamp(2.7rem,7.6vw,4.8rem)}
+ .page-hero h1{font-size:clamp(2.7rem,7.2vw,4.8rem)}
+ .site-header nav a{font-size:.85rem}
+}
+@media(max-width:540px){
+ .hero{min-height:440px}
+ .hero h1{font-size:clamp(2rem,8.6vw,2.9rem)}
+ .page-hero h1{font-size:clamp(2rem,8.6vw,2.9rem)}
+ .hero-copy{padding:4rem 0 2.5rem}
+ .page-hero{padding:3.5rem 0 2.5rem}
+ .detail-content h2{font-size:clamp(1.65rem,7vw,2.25rem)}
+ .project-card h3{font-size:clamp(1.7rem,6vw,2.3rem)}
+ .project-card{min-height:210px}
+ .policy h1{font-size:clamp(1.8rem,7vw,2.5rem);overflow-wrap:normal}
+ .site-header nav a{font-size:.85rem}
+}
