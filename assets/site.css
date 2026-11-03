@@ -50,3 +50,7 @@ a:focus-visible{outline:2px solid var(--purple2);outline-offset:4px}
 
 /* Project icon treatment */
 .detail-symbol.game-icon{overflow:hidden;border:0;border-radius:28px;background:none;box-shadow:0 0 42px rgba(108,94,255,.14)}.detail-symbol.game-icon img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+
+
+/* Smaller rounded project logos */
+.detail-symbol.game-icon{width:124px;height:124px;border-radius:22px;overflow:hidden;box-shadow:0 0 26px rgba(108,94,255,.12)}.detail-symbol.game-icon img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}@media(max-width:800px){.detail-symbol.game-icon{width:104px;height:104px;border-radius:20px}}@media(max-width:540px){.detail-symbol.game-icon{width:86px;height:86px;border-radius:18px}}
